@@ -6,20 +6,20 @@
 }
 
 html,body {
-    background-color: #f4f4f4;
+    background-color: #0a0a0a;
 }
 
 .form-container{
     position:relative;
-    left:20%;
-    width:60%;
+    /* left:20%; */
+    width:100%;
     height:100vh;
-    background-color:#ffffff;
+    background-color:#f8bb38;
 }
 
 .contact-form{
     position:absolute;
-    top:10%;
+    top:5%;
     left:10%;
     width:80%;
     height:600px;
@@ -36,11 +36,21 @@ input,textarea{
     border: 1px solid black;
     padding: 1rem;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fab289;
     cursor: pointer;
 
 }
 
 .submit:hover{
     opacity:0.6;
+}
+.logo{
+    float:left;
+    position: sticky;
+    height:20px;
+    width:20px;
+    z-index: 1;
+}
+#name,#email,#subject,#message{
+    background-color: #f8bb38;
 }
