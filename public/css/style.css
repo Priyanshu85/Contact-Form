@@ -54,3 +54,6 @@ input,textarea{
 #name,#email,#subject,#message{
     background-color: #f8bb38;
 }
+h1{
+    font-weight: bolder;
+}
