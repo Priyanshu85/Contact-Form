@@ -4,22 +4,27 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-
+/*
 html,body {
     background-color: #0a0a0a;
-}
+
+} */
 
 .form-container{
     position:relative;
-    /* left:20%; */
     width:100%;
     height:100vh;
     background-color:#f8bb38;
+    background-color: #0c2461;
+    background-color: #1b998b;
+    /* background-color: #2d3047;
+    background-color: #fffd82; */
+
 }
 
 .contact-form{
     position:absolute;
-    top:5%;
+    /* top:5%; */
     left:10%;
     width:80%;
     height:600px;
@@ -30,19 +35,30 @@ input,textarea{
     margin-top:2rem;
     border:none;
     border-bottom: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+color: black;
 }
 
 .submit{
     border: 1px solid black;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
     background-color: #fab289;
     cursor: pointer;
-
+border-radius: 8px;
+padding: 10px;
+background-color: black;
+color: white;
+border: none;
+font-family: 'Poppins', sans-serif;
+transition: all 150ms ease-in;
 }
 
 .submit:hover{
     opacity:0.6;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
 }
 .logo{
     float:left;
@@ -52,8 +68,17 @@ input,textarea{
     z-index: 1;
 }
 #name,#email,#subject,#message{
-    background-color: #f8bb38;
+    background-color: White;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
 }
+#name,#email,#subject,#message{
+
+    padding: 12px;
+}
+
 h1{
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
 }
